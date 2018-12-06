@@ -1,0 +1,26 @@
+{
+  "name": "Handle-Burger",
+  "version": "1.0.0",
+  "description": "Handle-Burger is a restaurant app that allows users to input the names of burgers they'd like to eat. Whenever the user submits a burger's name, it's displayed on the left side of the page -- waiting to be devoured. Each burger in the waiting area has a 'Devour it!' button. When the button is clicked, the burger will move to the right side of the page.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Cbondy1/Handle-Burger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1Cbondy1/Handle-Burger/issues"
+  },
+  "homepage": "https://github.com/1Cbondy1/Handle-Burger#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
