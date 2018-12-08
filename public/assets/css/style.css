@@ -1,7 +1,21 @@
-li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+body {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+}
+
+#devoured {
+  float: center;
+}
+
+#not-devoured {
+  float: center;
+}
+
+#order {
+  clear: left;
 }
 
 .label {
