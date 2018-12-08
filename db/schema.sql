@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS burgers_db;
-CREATE DATABASE burgers_db;
-USE burgers_db;
+-- DROP DATABASE IF EXISTS burgers_db;
+-- CREATE DATABASE burgers_db;
+-- USE burgers_db;
 
 CREATE TABLE burgers
 (
@@ -10,7 +10,7 @@ CREATE TABLE burgers
 	PRIMARY KEY (id)
 );
 
-INSERT INTO burgers (burger_name, devoured) 
+INSERT INTO burgers (name, devoured) 
 VALUES ("Bison Burger", FALSE), ("Double Cheese Burger", FALSE), ("Veggie Burger", FALSE);
 
 SELECT * FROM burgers;
