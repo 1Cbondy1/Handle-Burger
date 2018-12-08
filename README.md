@@ -4,4 +4,4 @@ Handle-Burger is a restaurant app that allows users to input the names of burger
 
 Each burger is stored in a database, whether devoured or not. Data is queried and routed using Node and MySQL. Handlebars is used to generate the HTML.
 
-Here is a link to the app deployed on Heroku:
+Here is a link to the app deployed on Heroku: https://immense-escarpment-68288.herokuapp.com/
